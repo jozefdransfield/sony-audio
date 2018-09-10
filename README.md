@@ -1,6 +1,6 @@
 [![npm version](https://badge.fury.io/js/sony-audio.svg)](https://badge.fury.io/js/sony-audio) [![CircleCI](https://circleci.com/gh/jozefdransfield/sony-audio.svg?style=svg)](https://circleci.com/gh/jozefdransfield/sony-audio) 
 
-#Sony-Audio API
+# Sony-Audio API
 
 This API allows you to connect and send remote control commands to the following Sony devices:
    - SRS-ZR5 
@@ -10,7 +10,7 @@ This API allows you to connect and send remote control commands to the following
    - HT-ST5000 
    - HT-ZF9 
 
-##Setup
+## Setup
 
 From the device or using Bonjour you can discover the IP address of your audio device, then the following code will allow you to setup a remote control object;
 
