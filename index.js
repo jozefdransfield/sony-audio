@@ -1,8 +1,6 @@
 const rp = require('request-promise');
 const _ = require('lodash');
 
-// Docs https://developer.sony.com/develop/audio-control-api/api-references/api-overview-2#_setactiveterminal_v1_0
-
 async function remoteFor(address) {
     return new Remote(address);
 }
@@ -14,7 +12,6 @@ class Remote {
 
     async request(service, name, version, params) {
         const url = this.address + '/sony/' + service;
-        console.log(url)
         const response = await rp({
             method: "POST",
             uri: url,
@@ -58,7 +55,6 @@ class Remote {
     }
 
     async getSourceList(scheme) {
-        console.log(scheme);
         const response = await this.avContentRequest('getSourceList', '1.2', [{
             "scheme": scheme
         }]);
@@ -67,3 +63,4 @@ class Remote {
 }
 
 module.exports = remoteFor;
+
