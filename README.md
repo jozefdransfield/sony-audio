@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/jozefdransfield/sony-audio.svg?style=svg)](https://circleci.com/gh/jozefdransfield/sony-audio)
+[![npm version](https://badge.fury.io/js/sony-audio.svg)](https://badge.fury.io/js/sony-audio) [![CircleCI](https://circleci.com/gh/jozefdransfield/sony-audio.svg?style=svg)](https://circleci.com/gh/jozefdransfield/sony-audio) 
 
 #Sony-Audio API
 

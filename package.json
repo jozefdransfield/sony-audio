@@ -1,7 +1,7 @@
 {
   "name": "sony-audio",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Sony Audio Device Remote Control API",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/jozefdransfield/sony-audio.git"
   },
-  "author": "",
+  "author": "Jozef Dransfield",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jozefdransfield/sony-audio/issues"
